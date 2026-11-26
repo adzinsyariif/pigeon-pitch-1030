@@ -54,14 +54,21 @@ tier also gets a price ("for $5 extra"), which turns the punchline
 into an actual business model and lands the joke harder (criterion 2).
 "Your texts" becomes "messages" (shorter, broader) and "we also shit"
 loses the filler "also" (criterion 5).
+
+Revision 2 (final): tighten every word (criterion 5) and sharpen the
+deadpan. "We deliver messages in..." becomes "messages delivered
+in..." — two words shorter, same meaning. The hyphen before the
+premium tier becomes a full stop: "...en route. Premium tier." reads
+as a flat sales closer and lets the punchline land before it. Final
+line verified at 148 characters, one line, UTF-8.
 """
 
 import os
 
 LINE = (
-    "Invest in PigeonPost: we deliver messages in 3-5 business days, "
-    "slower than email, but for $5 extra we shit on your ex's car "
-    "en route - premium tier."
+    "Invest in PigeonPost: messages delivered in 3-5 business days "
+    "\u2014 slower than email, but for $5 extra we shit on your ex's "
+    "car en route. Premium tier."
 )
 
 
