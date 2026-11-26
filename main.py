@@ -45,14 +45,23 @@ Draft candidates (scored 1-5 per criterion, total /25):
      well-worn pitch template and the line sprawls.
 
 Winner: C (23/25). Draft line below; revisions follow in later commits.
+
+Revision 1: sharpen the investor framing and price the joke. The draft
+opened with a flat "Our startup delivers..." — an elevator pitch to
+investors should name the company and ask for the money up front
+(criterion 1), so it now opens "Invest in PigeonPost:". The premium
+tier also gets a price ("for $5 extra"), which turns the punchline
+into an actual business model and lands the joke harder (criterion 2).
+"Your texts" becomes "messages" (shorter, broader) and "we also shit"
+loses the filler "also" (criterion 5).
 """
 
 import os
 
 LINE = (
-    "Our startup delivers your texts by pigeon in 3-5 business days, "
-    "but unlike email we also shit on your ex's car en route - "
-    "that's the premium tier."
+    "Invest in PigeonPost: we deliver messages in 3-5 business days, "
+    "slower than email, but for $5 extra we shit on your ex's car "
+    "en route - premium tier."
 )
 
 
